@@ -1,10 +1,47 @@
-<!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Home</title>
+<style>
+body {
+	font family: Arial;
+	background: gray;
+}
+
+.login {
+	background: silver;
+	padding: 40px;
+	width: 240px;
+	margin: auto;
+	margin-top: 50px;
+	height: 300px;
+}
+
+form {
+	width: 240px;
+	text_alig: center border:2px solid transparent;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 200;;
+	transition: border .5;
+}
+
+input[type=submit] {
+	border: 2px solid transparent;
+	background: dark silver;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px;
+	border-radius: 3px;
+}
+</style>
 </head>
 <body>
-Testing ..
+	<div class="Login">
+		<form>
+			<h1>Login</h1>
+			Username: <input type="text" name="Username"> <br> <br>
+			Password: <input type="password" name="Password"> <br> <br>
+			<input type="submit" value="submit"> <br> <br>
+		</form>
+	</div>
 </body>
-</html>
+<html>
